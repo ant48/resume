@@ -6,13 +6,13 @@ var bio = {
   name: "Nhu Tran (Annie)",
   role: "Front-end Developer",
   contacts: {
-    mobile: "934-7770",
-    email: "nntran1748@gmail.com",
-    github: "annient48",
-    location: "Greenbrier"
+    mobile: "571-0990",
+    email: "annientran48@gmail.com",
+    github: "ant48",
+    location: "Nashville"
   },
   welcomeMessage: "To work with an organization where my skills and educational are being utilized as well as enhanced.",
-  skills: ["HTML", "CSS", "JavaScript", "Bootstrap", "Python", "SQL"],
+  skills: ["HTML", "CSS", "JavaScript", "jQuery", "Bootstrap", "Python", "AJAX"],
   biopic: "../images/LinkedIn_picture-small.jpg"
 };
 
@@ -105,27 +105,33 @@ work.display = function() {
 var projects = {
   projects: [
     {
+      title: "GitHub Finder App",
+      description: "Applied GitHub API to fetch users by their GitHub username and formatted the information on the site in jQuery and AJAX.",
+      url: "https://github.com/ant48/github-finder",
+      images: ["../images/githubFinder-small.jpg"]
+    },
+    {
       title: "Movie Trailer Website",
       description: "Developed a collaboration of python files to generate an HTML page with a gallery of my favorite movies and TV shows.",
-      url: "https://annient48.github.io/movie-trailer/main_display.html",
+      url: "https://github.com/ant48/movie-trailer",
       images: ["../images/movie-trailer-small.jpg"]
     },
     {
       title: "Bookmark App",
       description: "Built a simple bookmark application with JavaScript to add, display, and delete favorite sites.",
-      url: "https://github.com/annient48/bookmark-app",
+      url: "https://github.com/ant48/bookmark-app",
       images: ["../images/bookmark-small.jpg"]
     },
     {
       title: "Pixel Art maker",
       description: "Developed an interface that allows user to create a table grid canvas and to paint each individual cell within that table using colors they choose with the color input type.",
-      url: "https://annient48.github.io/pixel-art/index.html",
+      url: "https://github.com/ant48/pixel-art",
       images: ["../images/pixel-maker-small.jpg"]
     },
     {
       title: "Memory Game",
       description: "Create a grid of 16 face-down cards with 8 pairs of matches using just plain Javascript.",
-      url: "https://github.com/annient48/memory-game",
+      url: "https://github.com/ant48/matching-game",
       images: ["../images/matching-game-small.jpg"]
     }
   ]
@@ -166,10 +172,10 @@ var education = {
   ],
   onlineCourses: [
     {
-      title: "Full Stack javaScript",
-      school: "Treehouse",
-      dates: "February 2018 - current",
-      url: "www.teamtreehouse.com"
+      title: "Front-End Nanodegree",
+      school: "Udacity",
+      dates: "current",
+      url: "www.udacity.com"
    }
   ]
 };
